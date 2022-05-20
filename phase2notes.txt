@@ -1,0 +1,19 @@
+Meeting Minutes 5/5/22
+
+
+WHAT WE DID:
+moved mapper and file manager into a dll
+moved reducer, trie and file manager into a dll
+linked both to the main file which has main, workflow and tests
+fixed dll code
+
+ISSUES:
+something went wrong with the linking
+
+TO DO:
+explicitly link the dlls to load in at runtime
+fix linking
+test and see if it runs
+ask if theres anything else missing that we need to do
+ask about file manager class (is it okay that its included in each dll)
+	can i just provide filemanager files to paste into dlls
